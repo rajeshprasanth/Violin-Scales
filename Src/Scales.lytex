@@ -1,0 +1,532 @@
+\documentclass[a4paper,english]{book}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm}
+
+\setcounter{secnumdepth}{5}
+
+\setcounter{tocdepth}{5}
+
+\newcommand{\betweenLilyPondSystem}[1]{\vspace{0.5cm}\linebreak}
+
+
+\begin{document}
+\title{Violin Scales in First Position}
+\author{Rajesh Prashanth}
+\date{\today}
+
+\maketitle
+
+\tableofcontents{}
+
+\listoffigures
+
+\listoftables
+
+
+%----------------------------------------------------
+
+\chapter{Circle of Fifth}
+
+\begin{figure}[hp]
+\centering 
+\includegraphics[width=0.75\textwidth]{circleoffifth.png}
+
+\caption{Circle of fifth}
+\end{figure}
+\pagebreak
+
+
+\begin{table}[hp]
+\centering
+\begin{tabular}{ccc}
+\hline
+\hline
+\# of Sharps & Major Scales & Minor Scales \\ \hline \hline
+0            & C Major      & A Minor*     \\ \hline
+1            & G Major*     & D Minor      \\ \hline
+2            & D Major      & G Minor*     \\ \hline
+3            & A Major*     & C Minor      \\ \hline
+4            & E Major      & F Minor      \\ \hline
+5            & B Major*     & Bb Minor*    \\ \hline
+\end{tabular}
+\caption{Sharp Scales in Violin}
+\label{sharps}
+\end{table}
+
+
+\begin{table}[hp]
+\centering
+\begin{tabular}{ccc}
+\hline
+\hline
+\# of Flats & Major Scale & Minor Scale \\ \hline \hline
+0           & C Major     & A Minor     \\ \hline
+1           & F Major     & E Minor     \\ \hline
+2           & Bb Major*   & B Minor*    \\ \hline
+3           & Eb Major    & F\# Minor   \\ \hline
+4           & Ab Major*   & C\# Minor   \\ \hline
+5           & Db Major    & G\# Minor*  \\ \hline
+\end{tabular}
+\caption{Flat Scales in Violin}
+\label{flats}
+\end{table}
+* 2 Octaves within First Position
+
+%-----------------------------------------------------------------
+
+\chapter{Scale of C Major}
+\section{Finger Chart}
+
+\section{Scales}
+\lilypondfile{./lily-files/C_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/C_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+\chapter{Scale of G Major}
+\section{Scales}
+\lilypondfile{./lily-files/G_Major_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/G_Major_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of D Major}
+\section{Scale}
+\lilypondfile{./lily-files/D_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/D_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of A Major}
+\section{Scale}
+\lilypondfile{./lily-files/A_Major_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/A_Major_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+
+\chapter{Scale of E Major}
+\section{Scale}
+\lilypondfile{./lily-files/E_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/E_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+\chapter{Scale of B Major}
+\section{Scale}
+\lilypondfile{./lily-files/B_Major_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/B_Major_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Arpeggios_2O.ly}
+\linebreak{}
+
+
+%---------------------------------------------------------------------
+\chapter{Scale of F Major}
+\section{Scales}
+\lilypondfile{./lily-files/F_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/F_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of Bb Major}
+\section{Scale}
+\lilypondfile{./lily-files/Bb_Major_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/Bb_Major_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of Eb Major}
+\section{Scales}
+\lilypondfile{./lily-files/Eb_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/Eb_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of Ab Major}
+\section{Scale}
+\lilypondfile{./lily-files/Ab_Major_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/Ab_Major_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+\chapter{Scale of Db Major}
+\section{Scales}
+\lilypondfile{./lily-files/Db_Major_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/Db_Major_Arpeggios_LO.ly}
+\linebreak{}
+
+
+%---------------------------------------------------------------------
+
+\chapter{Scale of A Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/A_Minor_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Scales_2O.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/A_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Harmonic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Harmonic_Scales_2O.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/A_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Melodic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Melodic_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/A_Minor_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Minor_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+
+\chapter{Scale of E Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/E_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/E_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/E_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/E_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+\chapter{Scale of B Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/B_Minor_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Scales_2O.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/B_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Harmonic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Harmonic_Scales_2O.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/B_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Melodic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Melodic_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/B_Minor_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+
+
+
+\chapter{Scale of F\# Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/F#_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/F#_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/F#_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/F#_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+
+
+\chapter{Scale of C\# Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/C#_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/C#_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/C#_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/C#_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+
+\chapter{Scale of G\# Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/G#_Minor_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Scales_2O.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/G#_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Harmonic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Harmonic_Scales_2O.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/G#_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Melodic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Melodic_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/G#_Minor_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Arpeggios_2O.ly}
+\linebreak{}
+
+
+%---------------------------------------------------------------------
+
+\chapter{Scale of D Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/D_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/D_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/D_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/D_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+
+
+
+\chapter{Scale of G Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/G_Minor_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Scales_2O.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/G_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Harmonic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Harmonic_Scales_2O.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/G_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Melodic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Melodic_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/G_Minor_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+
+
+
+
+\chapter{Scale of C Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/C_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/C_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/C_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/C_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+\chapter{Scale of F Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/F_Minor_Scales_LO.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/F_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/F_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/F_Minor_Arpeggios_LO.ly}
+\linebreak{}
+
+
+
+
+
+
+
+
+\chapter{Scale of Bb Minor}
+\section{Natural Minor Scales}
+\lilypondfile{./lily-files/Bb_Minor_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Scales_2O.ly}
+\linebreak{}
+\section{Harmonic Minor Scales}
+\lilypondfile{./lily-files/Bb_Minor_Harmonic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Harmonic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Harmonic_Scales_2O.ly}
+\linebreak{}
+\section{Melodic Minor Scales}
+\lilypondfile{./lily-files/Bb_Minor_Melodic_Scales_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Melodic_Scales_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Melodic_Scales_2O.ly}
+\linebreak{}
+\section{Arpeggios}
+\lilypondfile{./lily-files/Bb_Minor_Arpeggios_LO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Arpeggios_HO.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Arpeggios_2O.ly}
+\linebreak{}
+
+
+
+
+
+
+\end{document}
