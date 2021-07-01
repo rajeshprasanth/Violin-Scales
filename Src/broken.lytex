@@ -1,0 +1,216 @@
+\documentclass[a4paper,english]{book}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2cm,rmargin=2cm}
+
+\setcounter{secnumdepth}{5}
+
+\setcounter{tocdepth}{5}
+
+\newcommand{\betweenLilyPondSystem}[1]{\vspace{0.5cm}\linebreak}
+
+
+\begin{document}
+\title{Scales Excercises for Violin}
+\author{Rajesh Prashanth}
+\date{\today}
+
+\maketitle
+
+\tableofcontents{}
+\pagebreak
+\listoffigures
+\pagebreak
+\listoftables
+
+
+%----------------------------------------------------
+
+\chapter{Circle of Fifth}
+
+\begin{figure}[hp]
+\centering 
+\includegraphics[width=0.75\textwidth]{circleoffifth.png}
+
+\caption{Circle of fifth}
+\end{figure}
+\pagebreak
+
+
+\begin{table}[hp]
+\centering
+\begin{tabular}{ccc}
+\hline
+\hline
+\# of Sharps & Major Scales & Minor Scales \\ \hline \hline
+0            & C Major      & A Minor*     \\ \hline
+1            & G Major*     & D Minor      \\ \hline
+2            & D Major      & G Minor*     \\ \hline
+3            & A Major*     & C Minor      \\ \hline
+4            & E Major      & F Minor      \\ \hline
+5            & B Major*     & Bb Minor*    \\ \hline
+\end{tabular}
+\caption{Sharp Scales in Violin}
+\label{sharps}
+\end{table}
+
+
+\begin{table}[hp]
+\centering
+\begin{tabular}{ccc}
+\hline
+\hline
+\# of Flats & Major Scale & Minor Scale \\ \hline \hline
+0           & C Major     & A Minor     \\ \hline
+1           & F Major     & E Minor     \\ \hline
+2           & Bb Major*   & B Minor*    \\ \hline
+3           & Eb Major    & F\# Minor   \\ \hline
+4           & Ab Major*   & C\# Minor   \\ \hline
+5           & Db Major    & G\# Minor*  \\ \hline
+\end{tabular}
+\caption{Flat Scales in Violin}
+\label{flats}
+\end{table}
+* 2 Octaves within First Position
+
+%-----------------------------------------------------------------
+
+\chapter{Sequences}
+\subsection{Sequences of Major Keys}
+\lilypondfile{./lily-files/C_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/D_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/E_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/F_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Eb_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_sequences.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Db_Major_sequences.ly}
+\linebreak{}
+
+
+
+%----------------------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+
+\chapter{Broken Chords}
+\subsection{Broken Chords of Major Keys}
+\lilypondfile{./lily-files/C_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/D_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/E_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/F_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Eb_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Db_Major_Broken_Chords.ly}
+\linebreak{}
+
+
+\subsection{Broken Chords of Minor Keys}
+\lilypondfile{./lily-files/A_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/E_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/F#_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/C#_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G#_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/D_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/C_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/F_Minor_Broken_Chords.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Minor_Broken_Chords.ly}
+\linebreak{}
+
+
+%----------------------------------------------------------------------------
+
+
+
+
+%-------------------------------------------------------------------------------
+\chapter{Broken 3rd/Sequential Thirds}
+\subsection{Broken 3rd/Sequential Thirds of Major/Minor Keys}
+\lilypondfile{./lily-files/C_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/G_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/D_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/A_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/E_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/B_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/F_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Bb_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Eb_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Ab_Major_Broken_3rd.ly}
+\linebreak{}
+\lilypondfile{./lily-files/Db_Major_Broken_3rd.ly}
+\linebreak{}
+
+
+
+
+%--------------------------------------------------------------------------------
+
+
+
+
+
+
+%--------------------------------------------------------------------------------
+
+
+
+
+
+\end{document}
